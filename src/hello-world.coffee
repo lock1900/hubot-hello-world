@@ -1,15 +1,15 @@
 # Description
-#   A Hubot script that responds 'World!'
+#   A Hubot script that responds
 #
 # Configuration:
 #   None
 #
 # Commands:
-#   hubot hello - responds 'World!'
+#   hubot hello - responds some word
 #
 # Author:
-#   bouzuya <m@bouzuya.net>
+#   lock1900
 
 module.exports = (robot) ->
   robot.respond /hello/i, (msg) ->
-    msg.send 'World!'
+    msg.send 'こんにちは、みなさん。わたしはＨＡＬ９０００型コンピュータです。'
